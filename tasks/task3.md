@@ -1,6 +1,3 @@
-# 과제 3 (난이도 상)
-
-https://github.com/udacity/asteroids 에 들어가 해당 리포지토리를 로컬 머신에 클론 받고 다음 과제를 수행해주세요.
 
 ## 버그를 유발한 커밋 찾기
 
@@ -18,9 +15,20 @@ index.html 파일을 열고 게임을 직접 실행해 봅시다.
 
 어떤 커밋때문에 버그가 생겼는지 찾아봅시다. 그리고 버그를 수정하려면 어떻게 해야 하는지 적어봅시다.
 
-### 정답
-
 (여기에 버그를 유발한 커밋의 id와 어떻게 하면 버그를 수정할 수 있는지 적어주세요.)
+
+
+버그를 유발한 커밋 ID: 25ede836903881848fea811df5b687b59d962da3
+
+" a couple missing ends with the ipad version "
+
+game.js 파일 line 411에서  
+
+this.delayBeforeBullet = 10; 
+
+가 삭제되었는데, game.js에 삭제되어있던 코드를 입력해주고 push 해주었습니다.
+
+
 
 ### 힌트
 
